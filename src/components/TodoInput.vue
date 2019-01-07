@@ -17,9 +17,10 @@
     methods: {
       addTodo() {
         if (this.newTodoItem !== "") {
-          const value = this.newTodoItem && this.newTodoItem.trim();
-          localStorage.setItem(this.newTodoItem, this.newTodoItem);
-          this.clearInput();
+          let value = this.newTodoItem && this.newTodoItem.trim();
+          console.log(value);
+          this.$emit('addTodo', value);
+          // this.clearInput();
         }
       }
     }
