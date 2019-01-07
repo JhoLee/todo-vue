@@ -2,6 +2,7 @@
 # Created by https://www.gitignore.io/api/vue,vim,vuejs,linux,macos,cordova,windows
 # Edit at https://www.gitignore.io/?templates=vue,vim,vuejs,linux,macos,cordova,windows
 
+
 ### Cordova ###
 # gitignore template for the Cordova framework
 # website: https://cordova.apache.org/
@@ -115,3 +116,4 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/vue,vim,vuejs,linux,macos,cordova,windows
+dist/
